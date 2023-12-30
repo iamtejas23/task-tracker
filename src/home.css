@@ -1,0 +1,89 @@
+/* App.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.con{
+    justify-content: center;
+}
+
+.app {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 400px;
+    margin: auto; /* Center the container */
+}
+
+h1 {
+    text-align: center;
+}
+
+.task-form {
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+}
+
+.task-form input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.task-form button {
+    padding: 8px 15px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.task-list input {
+    margin-right: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.task-list button {
+    margin-left: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .app {
+        width: 100%; /* Full width on smaller screens */
+    }
+
+    .task-form button {
+        width: 100%; /* Full width button on smaller screens */
+    }
+}
