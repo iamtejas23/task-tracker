@@ -50,7 +50,7 @@ const App = () => {
       <div class="footer">
        
     <a href="https://github.com/iamtejas23" target="_blank" rel="noopener noreferrer">
-      <i class="icon mdi mdi-github"></i> Follow me on GitHub
+      <i class="icon mdi mdi-github"></i> Follow On GitHub
     </a>
   </div>
     </div>

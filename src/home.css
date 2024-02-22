@@ -32,12 +32,13 @@ h1 {
     display: flex;
     margin-bottom: 20px;
     flex-direction: column; /* Stack elements vertically on smaller screens */
+    border: none;
 }
 
 .task-form input {
     flex: 1;
     padding: 8px;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 5px;
     margin-bottom: 10px;
 }
